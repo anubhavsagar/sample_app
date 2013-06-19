@@ -1,5 +1,9 @@
 SampleApp::Application.routes.draw do
 
+  get "static_pages/home"
+
+  get "static_pages/help"
+
 match 'google' => redirect('http://www.google.com')
 
   # The priority is based upon order of creation:
